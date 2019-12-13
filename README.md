@@ -10,6 +10,6 @@ Buttons: https://de.farnell.com/schurter/1241-1618-11/kurzhubtaster-sms-gullwing
 ![Layout Button](1241.1618.11_flatPCBButton_pinlayout.PNG)
 
 Joystick: https://www.exp-tech.de/zubehoer/tasterschalter/4727/alps-skqu-4-direction-joystick-w/switch
-![Layout Joystick](ALPSSKQU_4directionJoystickwswitch_pinlayout.PNG)
+![Layout Joystick](ALPS_SKQU_4directionJoystickwswitch_pinlayout.PNG)
 
 MicroController: ???
