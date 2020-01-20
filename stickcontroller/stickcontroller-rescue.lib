@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 4-direction-joystick-4-direction-joystick
+#
+DEF 4-direction-joystick-4-direction-joystick B 0 40 Y Y 1 F N
+F0 "B" 750 50 50 H V C CNN
+F1 "4-direction-joystick-4-direction-joystick" 350 350 50 H V C CNN
+F2 "" 750 50 50 H I C CNN
+F3 "" 750 50 50 H I C CNN
+DRAW
+S 0 300 650 0 0 1 0 N
+X Button 1 750 250 100 L 50 50 1 1 O
+X Common 1 750 50 100 L 50 50 1 1 O
+X Down 1 -100 50 100 R 50 50 1 1 O
+X Left 1 -100 150 100 R 50 50 1 1 O
+X Right 1 750 150 100 L 50 50 1 1 O
+X Up 1 -100 250 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
