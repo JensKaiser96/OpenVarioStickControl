@@ -9,7 +9,7 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
  
 - Buttons: RAFI 001.503 Kurzhubtaster, RACON 12, 42VAC/DC, SMD \
   https://www.reichelt.de/kurzhubtaster-racon-12-42vac-dc-smd-rafi-001-503-p110832.html?&trstct=pos_4&nbc=1 \
-  Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf \
+  Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf 
 
 - Joystick:  E-Switch JS5208 \
   https://www.digikey.de/products/de?keywords=JS5208%20
