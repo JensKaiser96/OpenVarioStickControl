@@ -1,4 +1,4 @@
-16939476017503129
+16942636708453252
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -535,6 +535,13 @@ Button_Switch_SMD
 Panasonic_EVQPUM_EVQPUD
 http://industrial.panasonic.com/cdbs/www-data/pdf/ATV0000/ATV0000CE5.pdf
 SMD SMT SPST EVQPUM EVQPUD
+0
+4
+2
+Button_Switch_SMD
+Reichelt_RAFI_Kurzhubtaster
+
+
 0
 4
 2
@@ -1485,6 +1492,13 @@ SPST Tactile Switch
 2
 Button_Switch_THT
 4-direction-joystick
+
+
+0
+6
+6
+Button_Switch_THT
+JS5208
 
 
 0
