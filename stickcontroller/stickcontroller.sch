@@ -579,4 +579,37 @@ Text Label 4400 3350 0    50   ~ 0
 D-
 Text Label 4400 3250 0    50   ~ 0
 D+
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E36FB85
+P 3700 3100
+F 0 "J2" H 3700 3200 50  0000 C CNN
+F 1 "Conn_01x02" H 3700 3300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3700 3100 50  0001 C CNN
+F 3 "~" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5E372F2D
+P 3900 3000
+F 0 "#PWR02" H 3900 2850 50  0001 C CNN
+F 1 "+5V" H 3915 3173 50  0000 C CNN
+F 2 "" H 3900 3000 50  0001 C CNN
+F 3 "" H 3900 3000 50  0001 C CNN
+	1    3900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E37355B
+P 3900 3100
+F 0 "#PWR04" H 3900 2850 50  0001 C CNN
+F 1 "GND" H 3905 2927 50  0000 C CNN
+F 2 "" H 3900 3100 50  0001 C CNN
+F 3 "" H 3900 3100 50  0001 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

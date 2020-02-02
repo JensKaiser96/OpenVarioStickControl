@@ -48,24 +48,6 @@ F 3 "~" H 4400 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 2400 5100 2400
-Wire Wire Line
-	5100 2400 5150 2450
-Wire Wire Line
-	5750 5550 5650 5550
-Wire Wire Line
-	5650 5800 5650 5550
-Connection ~ 5650 5550
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5E246FA4
-P 5750 3750
-F 0 "U1" H 5750 3700 50  0000 C CNN
-F 1 "ATmega32U4-AU" V 5750 4400 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5750 3750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5750 3750 50  0001 C CNN
-	1    5750 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:Crystal Y1
 U 1 1 5E25AE67
@@ -79,8 +61,6 @@ F 3 "~" H 4700 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4700 2700 5100 2700
-Wire Wire Line
-	5100 2700 5150 2650
 Wire Wire Line
 	4550 2400 4700 2400
 Connection ~ 4700 2400
@@ -106,44 +86,14 @@ Connection ~ 4250 2700
 $Comp
 L Device:R R3
 U 1 1 5E26A31A
-P 4400 3350
-F 0 "R3" V 4500 3350 50  0000 C CNN
-F 1 "22" V 4400 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 3350 50  0001 C CNN
-F 3 "~" H 4400 3350 50  0001 C CNN
-	1    4400 3350
+P 4650 3350
+F 0 "R3" V 4750 3350 50  0000 C CNN
+F 1 "22" V 4650 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 3350 50  0001 C CNN
+F 3 "~" H 4650 3350 50  0001 C CNN
+	1    4650 3350
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 5E26921C
-P 4400 3250
-F 0 "R2" V 4300 3250 50  0000 C CNN
-F 1 "22" V 4400 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4330 3250 50  0001 C CNN
-F 3 "~" H 4400 3250 50  0001 C CNN
-	1    4400 3250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 5E267901
-P 2900 3750
-F 0 "#PWR02" H 2900 3500 50  0001 C CNN
-F 1 "GND" H 2905 3577 50  0000 C CNN
-F 2 "" H 2900 3750 50  0001 C CNN
-F 3 "" H 2900 3750 50  0001 C CNN
-	1    2900 3750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2900 3650 2900 3750
-Wire Wire Line
-	4250 3350 3550 3350
-Wire Wire Line
-	4550 3250 5150 3250
-Wire Wire Line
-	4550 3350 5150 3350
 $Comp
 L power:+5V #PWR011
 U 1 1 5E29948A
@@ -168,8 +118,6 @@ F 3 "" H 4650 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 1950 4650 2050
-Wire Wire Line
-	5150 1950 5150 2250
 $Comp
 L power:+5V #PWR010
 U 1 1 5E2A3FBC
@@ -181,8 +129,6 @@ F 3 "" H 4900 3050 50  0001 C CNN
 	1    4900 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 3050 5150 3050
 $Comp
 L power:+5V #PWR013
 U 1 1 5E2A8B5B
@@ -206,14 +152,8 @@ F 3 "" H 7600 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 1950 5650 1850
-Wire Wire Line
 	5650 1850 5750 1850
-Wire Wire Line
-	5750 1950 5750 1850
 Connection ~ 5750 1850
-Wire Wire Line
-	5850 1950 5850 1850
 Wire Wire Line
 	5850 1850 5750 1850
 Wire Wire Line
@@ -262,28 +202,6 @@ F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 4650 50  0001
 F 3 "~" H 4350 4650 50  0001 C CNN
 	1    4350 4650
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5E2D98E7
-P 5000 3550
-F 0 "C3" V 5150 3550 50  0000 C CNN
-F 1 "1uF" V 5000 3550 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5038 3400 50  0001 C CNN
-F 3 "~" H 5000 3550 50  0001 C CNN
-	1    5000 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5E2DA29B
-P 4850 3550
-F 0 "#PWR09" H 4850 3300 50  0001 C CNN
-F 1 "GND" H 4855 3377 50  0000 C CNN
-F 2 "" H 4850 3550 50  0001 C CNN
-F 3 "" H 4850 3550 50  0001 C CNN
-	1    4850 3550
-	1    0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW3
@@ -346,44 +264,6 @@ F 3 "~" H 7600 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J2
-U 1 1 5E306688
-P 3650 3950
-F 0 "J2" V 3522 4130 50  0000 L CNN
-F 1 "Conn_01x04_USB" V 3613 4130 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3650 3950 50  0001 C CNN
-F 3 "~" H 3650 3950 50  0001 C CNN
-	1    3650 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3450 3650 3450 3750
-Wire Wire Line
-	2900 3650 3450 3650
-Wire Wire Line
-	3550 3750 3550 3350
-Wire Wire Line
-	3650 3750 3650 3250
-Wire Wire Line
-	3650 3250 4250 3250
-$Comp
-L power:+5V #PWR04
-U 1 1 5E30C4DE
-P 3750 3600
-F 0 "#PWR04" H 3750 3450 50  0001 C CNN
-F 1 "+5V" H 3765 3773 50  0000 C CNN
-F 2 "" H 3750 3600 50  0001 C CNN
-F 3 "" H 3750 3600 50  0001 C CNN
-	1    3750 3600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 3750 3750 3600
-Text Label 4000 3350 0    50   ~ 0
-D-
-Text Label 4000 3250 0    50   ~ 0
-D+
-$Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5E312D11
 P 8300 5200
@@ -394,22 +274,6 @@ F 3 "~" H 8300 5200 50  0001 C CNN
 	1    8300 5200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5150 2850
-NoConn ~ 6350 2250
-NoConn ~ 6350 2650
-NoConn ~ 6350 2750
-NoConn ~ 6350 2850
-NoConn ~ 6350 2950
-NoConn ~ 6350 3150
-NoConn ~ 6350 3250
-NoConn ~ 6350 4350
-NoConn ~ 6350 4450
-NoConn ~ 6350 4650
-NoConn ~ 6350 4750
-NoConn ~ 6350 4850
-NoConn ~ 6350 4950
-NoConn ~ 6350 5050
-NoConn ~ 6350 5150
 Wire Wire Line
 	7800 4700 7800 4600
 Connection ~ 7800 4600
@@ -530,8 +394,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 1750 7000 1750
 Wire Wire Line
-	6350 2550 6700 2550
-Wire Wire Line
 	6800 2350 6800 1850
 Wire Wire Line
 	6800 1850 7000 1850
@@ -541,8 +403,6 @@ Wire Wire Line
 	6600 1950 7000 1950
 Wire Wire Line
 	6600 1550 6600 1950
-Wire Wire Line
-	6350 2350 6800 2350
 Wire Wire Line
 	7500 1750 7600 1750
 Wire Wire Line
@@ -556,45 +416,27 @@ Wire Wire Line
 Wire Wire Line
 	7750 1850 7500 1850
 Wire Wire Line
-	6350 2450 7750 2450
-Wire Wire Line
-	6350 3850 6650 3850
-Wire Wire Line
 	6650 3850 6650 4200
 Wire Wire Line
 	6650 4200 7400 4200
-Wire Wire Line
-	6350 4050 6550 4050
 Wire Wire Line
 	6550 4050 6550 4400
 Wire Wire Line
 	6550 4400 7400 4400
 Wire Wire Line
-	6350 4150 6450 4150
-Wire Wire Line
 	6450 4150 6450 4600
 Wire Wire Line
 	6450 4600 7400 4600
 Wire Wire Line
-	6350 3450 6450 3450
-Wire Wire Line
 	6450 3450 6450 3250
-Wire Wire Line
-	6450 3250 7350 3250
-Wire Wire Line
-	6350 3550 6550 3550
 Wire Wire Line
 	6550 3550 6550 3150
 Wire Wire Line
 	6550 3150 7350 3150
 Wire Wire Line
-	6350 3650 6650 3650
-Wire Wire Line
 	6650 3650 6650 3050
 Wire Wire Line
 	6650 3050 7350 3050
-Wire Wire Line
-	6350 3750 6750 3750
 Wire Wire Line
 	6750 3750 6750 3550
 Wire Wire Line
@@ -604,8 +446,6 @@ Wire Wire Line
 Wire Wire Line
 	8400 3150 8200 3150
 Wire Wire Line
-	6350 3950 6950 3950
-Wire Wire Line
 	6950 3950 6950 3650
 Wire Wire Line
 	6950 3650 8500 3650
@@ -613,4 +453,130 @@ Wire Wire Line
 	8500 3650 8500 3050
 Wire Wire Line
 	8500 3050 8200 3050
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E3C7C9E
+P 4200 3350
+F 0 "J1" H 4200 3450 50  0000 C CNN
+F 1 "Conn_01x02" H 4200 3550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4200 3350 50  0001 C CNN
+F 3 "~" H 4200 3350 50  0001 C CNN
+	1    4200 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 3350 4400 3350
+Wire Wire Line
+	6450 3250 7350 3250
+$Comp
+L power:GND #PWR09
+U 1 1 5E2DA29B
+P 4850 3550
+F 0 "#PWR09" H 4850 3300 50  0001 C CNN
+F 1 "GND" H 4855 3377 50  0000 C CNN
+F 2 "" H 4850 3550 50  0001 C CNN
+F 3 "" H 4850 3550 50  0001 C CNN
+	1    4850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3250 4500 3250
+Wire Wire Line
+	6350 2350 6800 2350
+NoConn ~ 6350 2250
+Wire Wire Line
+	4900 3050 5150 3050
+$Comp
+L Device:C C3
+U 1 1 5E2D98E7
+P 5000 3550
+F 0 "C3" V 5150 3550 50  0000 C CNN
+F 1 "1uF" V 5000 3550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5038 3400 50  0001 C CNN
+F 3 "~" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	0    1    1    0   
+$EndComp
+Connection ~ 5650 5550
+Wire Wire Line
+	5650 5800 5650 5550
+NoConn ~ 5150 2850
+NoConn ~ 6350 4650
+NoConn ~ 6350 4750
+NoConn ~ 6350 4850
+NoConn ~ 6350 4950
+NoConn ~ 6350 5050
+NoConn ~ 6350 5150
+NoConn ~ 6350 4350
+NoConn ~ 6350 3250
+NoConn ~ 6350 3150
+NoConn ~ 6350 2850
+Wire Wire Line
+	4800 3350 5150 3350
+NoConn ~ 6350 2750
+NoConn ~ 6350 2650
+Wire Wire Line
+	6350 4150 6450 4150
+Wire Wire Line
+	6350 4050 6550 4050
+Wire Wire Line
+	6350 3850 6650 3850
+Wire Wire Line
+	5850 1950 5850 1850
+Wire Wire Line
+	6350 3950 6950 3950
+Wire Wire Line
+	6350 3750 6750 3750
+Wire Wire Line
+	6350 3650 6650 3650
+Wire Wire Line
+	5650 1950 5650 1850
+Wire Wire Line
+	6350 3550 6550 3550
+Wire Wire Line
+	6350 3450 6450 3450
+Wire Wire Line
+	5100 2400 5150 2450
+Wire Wire Line
+	5100 2700 5150 2650
+Wire Wire Line
+	5750 5550 5650 5550
+Wire Wire Line
+	5750 1950 5750 1850
+Wire Wire Line
+	5150 1950 5150 2250
+NoConn ~ 6350 2950
+Wire Wire Line
+	6350 2550 6700 2550
+Wire Wire Line
+	6350 2450 7750 2450
+NoConn ~ 6350 4450
+$Comp
+L Device:R R2
+U 1 1 5E26921C
+P 4650 3250
+F 0 "R2" V 4550 3250 50  0000 C CNN
+F 1 "22" V 4650 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 3250 50  0001 C CNN
+F 3 "~" H 4650 3250 50  0001 C CNN
+	1    4650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5E246FA4
+P 5750 3750
+F 0 "U1" H 5750 3700 50  0000 C CNN
+F 1 "ATmega32U4-AU" V 5750 4400 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 5750 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5750 3750 50  0001 C CNN
+	1    5750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3250 5150 3250
+Text Label 4400 3350 0    50   ~ 0
+D-
+Text Label 4400 3250 0    50   ~ 0
+D+
 $EndSCHEMATC
