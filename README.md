@@ -19,6 +19,9 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
 
 - Quarz: 7A-16.000MAAJ-T \
   https://www.digikey.de/product-detail/de/txc-corporation/7A-16.000MAAJ-T/887-1086-2-ND/2118770
+  
+- Sicherung: 04000025WR (500mA) \
+  https://www.digikey.de/product-detail/de/04000025WR/F12131CT-ND/10271166
 
 ### Sonstiges:
 Bootloader: https://learn.adafruit.com/atmega32u4-breakout?view=all
