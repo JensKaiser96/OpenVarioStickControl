@@ -1,4 +1,4 @@
-16942636708453252
+16947381014405070
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42202,6 +42202,27 @@ connector Wago  top entry
 0
 24
 24
+Connector_Wire
+SolderWirePadOval
+
+
+0
+1
+1
+Connector_Wire
+SolderWirePadOval_2
+
+
+0
+2
+2
+Connector_Wire
+SolderWirePadOval_4
+
+
+0
+4
+4
 Connector_Wire
 SolderWirePad_1x01_Drill0.8mm
 Wire solder connection
