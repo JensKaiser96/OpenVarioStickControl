@@ -8,7 +8,7 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
   Vorlage: https://github.com/adafruit/Adafruit_Atmega32u4_Breakout_Board
  
 - Buttons: RAFI 001.503 Kurzhubtaster, RACON 12, 42VAC/DC, SMD \
-  https://www.reichelt.de/kurzhubtaster-racon-12-42vac-dc-smd-rafi-001-503-p110832.html?&trstct=pos_4&nbc=1 \
+  https://www.reichelt.de/kurzhubtaster-racon-8-42vac-dc-smd-rafi-100-503-p110835.html \
   Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf 
 
 - Joystick:  E-Switch JS5208 \
