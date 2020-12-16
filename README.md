@@ -11,7 +11,7 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
   https://www.reichelt.de/kurzhubtaster-racon-8-42vac-dc-smd-rafi-100-503-p110835.html \
   Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf \
   Sollfahrt-Switch: \
-  https://www.reichelt.de/smd-kurzhubtaster-vert-montage-hoehe-5-0mm-taster-9315-p44514.html \
+  https://www.reichelt.de/smd-kurzhubtaster-vert-montage-hoehe-5-0mm-taster-9315-p44514.html
           
 
 - Joystick:  E-Switch JS5208 \
@@ -38,7 +38,7 @@ Bootloader: https://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-wi
 | 5V      | 5V  |
 | GND     | GND |
 
-1. Connect Arduino Uno to Atmega 32u4 according to the above Table \
-2. Connect Arduino Uno via USB to Computer \
-3. Start Ardinio IDE \
-4. Arduino as ISP, Leonardo Bootloader \
+1. Connect Arduino Uno to Atmega 32u4 according to the above Table
+2. Connect Arduino Uno via USB to Computer
+3. Start Ardinio IDE
+4. Arduino as ISP, Leonardo Bootloader
