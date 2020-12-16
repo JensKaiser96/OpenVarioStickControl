@@ -27,4 +27,18 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
   https://www.digikey.de/product-detail/de/04000025WR/F12131CT-ND/10271166
 
 ### Sonstiges:
-Bootloader: https://learn.adafruit.com/atmega32u4-breakout?view=all
+Bootloader: https://murchlabs.com/monday-experiment-bootloading-an-atmega32u4-with-arduino/
+
+| Arduino Pin   | Atmega 32u4 Pin |
+|:-------------:|:---------------:|
+| 10      | 13  |
+| 11      | 10  |
+| 12      | 11  |
+| 13      | 9   |
+| 5V      | 5V  |
+| GND     | GND |
+
+1. Connect Arduino Uno to Atmega 32u4 according to the above Table \
+2. Connect Arduino Uno via USB to Computer \
+3. Start Ardinio IDE \
+4. Arduino as ISP, Leonardo Bootloader \
