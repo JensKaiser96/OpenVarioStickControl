@@ -9,7 +9,10 @@ https://www.openvario.org/doku.php?id=projects:remote_00:top
  
 - Buttons: RAFI 001.503 Kurzhubtaster, RACON 12, 42VAC/DC, SMD \
   https://www.reichelt.de/kurzhubtaster-racon-8-42vac-dc-smd-rafi-100-503-p110835.html \
-  Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf 
+  Datenblatt: https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf \
+  Sollfahrt-Switch: \
+  https://www.reichelt.de/smd-kurzhubtaster-vert-montage-hoehe-5-0mm-taster-9315-p44514.html?&nbc=1&trstct=lsbght_sldr::110835 \
+          
 
 - Joystick:  E-Switch JS5208 \
   https://www.digikey.de/products/de?keywords=JS5208%20
