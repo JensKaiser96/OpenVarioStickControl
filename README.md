@@ -14,7 +14,7 @@
 - [Joystick:  E-Switch JS5208](https://www.digikey.de/products/de?keywords=JS5208%20)
 
 - [MicroController: ATMEGA32U4](https://www.digikey.de/product-detail/de/microchip-technology/ATMEGA32U4-AU/ATMEGA32U4-AU-ND/1914602)
-  [Pinmap](https://www.arduino.cc/en/uploads/Hacking/32U4PinMapping.png)
+  [Pin-mapping](https://www.arduino.cc/en/Hacking/PinMapping32u4)
 
 - [Quarz: 7A-16.000MAAJ-T](https://www.digikey.de/product-detail/de/txc-corporation/7A-16.000MAAJ-T/887-1086-2-ND/2118770)
   
