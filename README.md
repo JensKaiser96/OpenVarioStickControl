@@ -11,9 +11,10 @@
   [Datenblatt](https://cdn-reichelt.de/documents/datenblatt/C200/DS_GER_RACON.pdf) \
   [Sollfahrt-Switch](https://www.reichelt.de/smd-kurzhubtaster-vert-montage-hoehe-5-0mm-taster-9315-p44514.html)
   
-- [Joystick:  E-Switch JS5208](https://www.digikey.de/products/de?keywords=JS5208%20) \
+- [Joystick:  E-Switch JS5208](https://www.digikey.de/products/de?keywords=JS5208%20)
 
 - [MicroController: ATMEGA32U4](https://www.digikey.de/product-detail/de/microchip-technology/ATMEGA32U4-AU/ATMEGA32U4-AU-ND/1914602)
+  [Pinmap](https://www.arduino.cc/en/uploads/Hacking/32U4PinMapping.png)
 
 - [Quarz: 7A-16.000MAAJ-T](https://www.digikey.de/product-detail/de/txc-corporation/7A-16.000MAAJ-T/887-1086-2-ND/2118770)
   
